@@ -1,0 +1,193 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: #E9EBEE;
+}
+main{
+    width: 1024px;
+    min-width: 1024px;
+    margin: 0px auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    position: static;
+
+
+}
+/*CABECALHO*/
+.topo{
+    background-color:#4267B2;
+    border-bottom: 1px solid #29487D;
+    width: 100%;
+    height: 42px;
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+}
+
+header{/*
+    background-color:rgb(66, 178, 141);*/
+    position: fixed;
+    width: 1024px;
+    height: 42px;
+    z-index: 3;
+    max-width: 1024px;
+    text-align: center;
+}
+.container{/*
+    background-color: salmon;*/
+    height: 24px;
+    float: left;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    position: relative;
+}
+.container.um{
+    width: 300px;
+    margin-left: 9px;
+}
+.container.dois{
+    width: 100px;
+    margin-left: 9px;
+}
+.container.tres{
+    width: 150px;
+    margin-left: 9px;
+}
+.container.quatro{
+    width: 40px;
+    margin-left: 9px;
+}
+.container.cinco{
+    width: 72px;
+    margin-left: 9px;
+}
+.container.seis{
+    width: 80px;
+    margin-left: 9px;
+}
+
+header ul{/*
+    background-color: rgb(175, 115, 209);*/
+    margin: 0px;
+    padding: 0px;
+}
+header ul li {/*
+    background-color: rgb(146, 147, 211);*/
+    list-style: none;
+    margin-left: 9px;
+    padding: 0px;
+    margin: 0px;
+}
+header ul li a{/*
+    background-color: rgb(175, 218, 205);*/
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+    border-radius: 24px;
+    display: block;
+    
+    
+}
+header ul li a:hover{
+    background-color: #3B5CA0;
+    
+}
+/*CABECALHO*/
+
+nav{
+    top: 55px;
+    position: relative;
+}
+
+/*CONTEUDO DA ESQUERDA*/
+#left_content{
+    width: 186px;
+    margin-left: 3px;
+    position: fixed;
+}
+#left_content ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+}
+#left_content ul li{
+    list-style: none;
+}
+#left_content ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    display: block;
+}
+#left_content ul li a:hover{
+    background-color: #F5F6F7;
+    width: 184px;
+    line-height: 28px;
+    border: 1px solid #DDDFE2;
+    
+}
+/*CONTEUDO DA ESQUERDA*/
+
+
+/*CONTEUDO DA MEIO*/
+#mid_content{
+    width: 500px;
+    margin-left: 199px;
+    left: 190px;
+    float: left;
+}
+/*CONTEUDO DA MEIO*/
+
+/*CONTEUDO DA DIREITA*/
+#right_content{
+    width: 308px;
+    margin-right: 3px;
+    left: 700px;
+    float: right;
+}
+/*CONTEUDO DA DIREITA*/
+
+.box{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    height: 180px;
+    padding: 5px;
+    border: 1px solid #DDDFE2;
+    
+}
+.new_post{
+    height: 155px;
+}
+.stories{
+    height: 255px;
+}
+.post{
+    height: 804px;
+}
+.notification{
+    height: 43px;
+}
+.your_games{
+    height: 349px;
+}
+.patrocin{
+    height: 536px;
+}
+.lang{
+    height: 77px;
+}
+footer{
+    height: 53px;
+}
+img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    float: left;
+}
+footer{
+    padding: 5px;
+}
